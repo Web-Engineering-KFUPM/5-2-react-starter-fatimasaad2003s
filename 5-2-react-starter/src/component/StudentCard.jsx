@@ -1,4 +1,3 @@
-
 function StudentCard({ name, studentId, department }) {
  
     return (
