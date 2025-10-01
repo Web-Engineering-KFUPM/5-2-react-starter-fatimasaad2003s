@@ -12,9 +12,20 @@ function App() {
 
       <main className="dashboard-main">
         <div className="cards-container">
-     
-          <h1>Student Info</h1>
-          <StudentCard />
+           {/* First */}
+          <StudentCard
+            name="STUDENT 1"
+            studentId="123"
+            department="CS"
+          />
+
+          {/* Second */}
+          <StudentCard
+            name="STUDENT 2"
+            studentId="456"
+            department="CS"
+          />
+
 
         </div>
       </main>
