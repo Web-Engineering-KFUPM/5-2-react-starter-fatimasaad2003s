@@ -1,4 +1,6 @@
 import './App.css'
+import StudentCard from './components/StudentCard';
+
 
 function App() {
   return (
@@ -10,7 +12,21 @@ function App() {
 
       <main className="dashboard-main">
         <div className="cards-container">
-          {/* TODO: Import and render StudentCard components here */}
+           {/* First */}
+          <StudentCard
+            name="STUDENT 1"
+            studentId="123"
+            department="CS"
+          />
+
+          {/* Second */}
+          <StudentCard
+            name="STUDENT 2"
+            studentId="456"
+            department="CS"
+          />
+
+
         </div>
       </main>
     </div>
