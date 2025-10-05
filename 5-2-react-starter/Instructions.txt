@@ -12,7 +12,7 @@ Setup
 1. Open VS Code and go to the terminal.
 2. Move into the project folder by running: cd 5-2-react-starter
 3. Install the required node modules by running: npm install or npm i
-4. To see the output, start the development server by running: npm run dev
+4. To see the output, start the development server by running: npm run deىv
 
 Note: In order to gain good marks in the lab, please follow the lab instructions strickly.
 
